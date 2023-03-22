@@ -106,27 +106,8 @@ http.createServer(function (req, res) {
         res.end(JSON.stringify(user));
       }
     
-}).listen(5000);
+}).listen(5080);
 
-
- //   const file = fs.readFileSync('users.txt')
-  //   const json = JSON.parse(file)
-  
-  //   const id = parseInt(req.url.split("/")[2]);
-    
-  //   const user = json.filter(users => {
-  //     return users.id !== id
-  // });
-  //   console.log("delete ",user);
-
-  //     req.on("end", () => {
-  //       const data = JSON.parse(user);
-  //       res.setHeader("Access-Control-Allow-Origin", "*");
-  //       res.writeHead(200, { "Content-Type": "application/json" });
-  //       console.log(JSON.stringify(data));
-  //       res.end(JSON.stringify(data));
-  //     });
-  // }
 
 // async function fetchData() {
 //     fetch("https://dummyjson.com/users?limit=10&select=id,firstName,lastName,email,gender,phone")
